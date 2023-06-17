@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+/* border styles */
+section {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: rgb(234, 15, 66);
+  /* border: 10px solid teal; */
+}
+
+/* layout styles */
+
+/* section {
+  margin: 10px 50px 100px 1px;
+  padding: 30px;
+} */
+
+section {
+  width: 200px;
+  padding: 10px;
+}
+
+.star-img {
+  width: 50%;
+}
